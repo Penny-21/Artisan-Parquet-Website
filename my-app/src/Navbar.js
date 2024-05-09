@@ -1,46 +1,48 @@
 import React from "react";
 import "./Navbar.css";
-import logo from 'assets/png/Logo-affiancato-1'; // Importa l'immagine (assicurati di avere il percorso corretto)
+import logo from "./assets/png/Logo-affiancato-1.png"; // Importa l'immagine (assicurati di avere il percorso corretto)
 
 function Navbar() {
   return (
     <header>
-      <div className="navbar-logo">
-        <img src={logo} alt="Logo" className="navbar-logo-img" />
-      </div>
-      <nav className="navbar">
-        <ul className="navbar-list">
-          <li className="navbar-item">
-            <a href="#" className="navbar-link">
-              Elemento 1
+      <nav className="navbar navbar-expand-lg navbar-light bg-warning">
+        <a className="navbar-brand" href="#">
+          <img src={logo} alt="Logo" className="navbar-logo-img" />
+        </a>
+
+        <button
+          className="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span className="navbar-toggler-icon"></span>
+        </button>
+        <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div className="navbar-nav">
+            <a className="nav-link navbar-link" href="#">
+              Home
             </a>
-          </li>
-          <li className="navbar-item">
-            <a href="#" className="navbar-link">
-              Elemento 2
+            <a className="nav-link navbar-link" href="#">
+              About
             </a>
-          </li>
-          <li className="navbar-item">
-            <a href="#" className="navbar-link">
-              Elemento 3
+            <a className="nav-link navbar-link" href="#">
+              Collections
             </a>
-          </li>
-          <li className="navbar-item">
-            <a href="#" className="navbar-link">
-              Elemento 4
+            <a className="nav-link navbar-link" href="#">
+              Portfolio
             </a>
-          </li>
-          <li className="navbar-item">
-            <a href="#" className="navbar-link">
-              Elemento 5
+            <a className="nav-link navbar-link" href="#">
+              Stories
             </a>
-          </li>
-          <li className="navbar-item">
-            <a href="#" className="navbar-link">
-              Elemento 6
+            <a className="nav-link navbar-link" href="#">
+              Contact
             </a>
-          </li>
-        </ul>
+          </div>
+        </div>
       </nav>
     </header>
   );

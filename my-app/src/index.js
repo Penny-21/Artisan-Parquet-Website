@@ -4,11 +4,13 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Navbar from './Navbar'; // Importa il componente Navbar
+import Carousel from './Carousel';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Navbar />
+    <Carousel />
   </React.StrictMode>
 );
 

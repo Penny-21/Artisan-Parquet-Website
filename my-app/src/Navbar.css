@@ -1,6 +1,6 @@
 .navbar {
-    background-color: #333;
-    color: #fff;
+    background-color: #FDE49E;
+    color: #151515;
   }
 
   .navbar-logo {
@@ -9,7 +9,7 @@
   }
   
   .navbar-logo-img {
-    height: 40px; /* Imposta l'altezza dell'immagine */
+    height: 150px; /* Imposta l'altezza dell'immagine */
     width: auto; /* Imposta la larghezza dell'immagine in base all'altezza */
   }
   
@@ -23,15 +23,18 @@
   .navbar-item {
     display: inline-block;
     margin-right: 10px;
+    padding: 0px 25px;
   }
   
   .navbar-link {
-    color: #fff;
+    color: #151515 !important;
     text-decoration: none;
-    padding: 10px;
+    padding: 5px 25px !important;
+    font-size: large;
   }
   
   .navbar-link:hover {
-    background-color: #555;
+    color: #696969 !important;
+    text-decoration: none;
   }
   
