@@ -1,0 +1,19 @@
+.image-section {
+    padding: 50px 0; /* Aggiungi spazio attorno alle immagini */
+  }
+  
+  .image-tile {
+    margin-bottom: 20px; /* Aggiungi spazio tra le immagini */
+  }
+  
+  .image-tile img {
+    width: 100%;
+    height: auto;
+  }
+
+  .image-tile:hover img {
+    transform: scale(1.1); /* Ing randimento dell'immagine al passaggio del mouse */
+    transition: transform 0.3s ease; /* Aggiungi una transizione per un effetto più fluido */
+  }
+  
+  

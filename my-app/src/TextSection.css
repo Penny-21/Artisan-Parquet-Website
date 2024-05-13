@@ -1,0 +1,15 @@
+.text-section {
+    padding: 50px 0; /* Aggiungi spazio attorno al testo */
+    background-color: #f8f9fa; /* Cambia il colore dello sfondo */
+  }
+  
+  .text-section h2 {
+    color: #333; /* Cambia il colore del titolo */
+    text-align: center;
+  }
+  
+  .text-section p {
+    color: #666; /* Cambia il colore del testo */
+    text-align: center;
+  }
+  

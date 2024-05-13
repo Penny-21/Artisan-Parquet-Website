@@ -1,0 +1,19 @@
+.review-section {
+    padding: 50px 0; /* Aggiungi spazio attorno alle recensioni */
+  }
+  
+  .review {
+    background-color: #f8f9fa; /* Sfondo della recensione */
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px; /* Spazio tra le recensioni */
+  }
+  
+  .review-content p {
+    margin-bottom: 20px; /* Spazio tra il testo della recensione e l'autore */
+  }
+  
+  .review-author h4 {
+    margin-bottom: 5px; /* Spazio tra il nome dell'autore e la posizione */
+  }
+  
