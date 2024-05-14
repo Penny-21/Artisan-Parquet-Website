@@ -1,5 +1,10 @@
 import React from 'react';
 import './ImageSection.css'; // Importa il file CSS per la stilizzazione
+import floor1 from "./assets/png/Floor-1.png"; // Importa l'immagine (assicurati di avere il percorso corretto)
+import floor2 from "./assets/png/Floor-2.png"; // Importa l'immagine (assicurati di avere il percorso corretto)
+import floor3 from "./assets/png/Floor-4.png"; // Importa l'immagine (assicurati di avere il percorso corretto)
+import floor4 from "./assets/png/Floor-5.png"; // Importa l'immagine (assicurati di avere il percorso corretto)
+import floor5 from "./assets/png/Floor-3.png"; // Importa l'immagine (assicurati di avere il percorso corretto)
 
 function ImageSection() {
   return (
@@ -8,27 +13,27 @@ function ImageSection() {
         <div className="row">
           <div className="col-md-4">
             <div className="image-tile">
-              <img src="https://via.placeholder.com/150" alt="Immagine 1" />
+            <img src={floor1} alt="Carousel" />
             </div>
           </div>
           <div className="col-md-4">
             <div className="image-tile">
-              <img src="https://via.placeholder.com/200" alt="Immagine 2" />
+            <img src={floor2} alt="Carousel" />
             </div>
           </div>
           <div className="col-md-4">
             <div className="image-tile">
-              <img src="https://via.placeholder.com/250" alt="Immagine 3" />
+            <img src={floor3} alt="Carousel" />
             </div>
           </div>
           <div className="col-md-6">
             <div className="image-tile">
-              <img src="https://via.placeholder.com/300" alt="Immagine 4" />
+            <img src={floor4} alt="Carousel" />
             </div>
           </div>
           <div className="col-md-6">
             <div className="image-tile">
-              <img src="https://via.placeholder.com/350" alt="Immagine 5" />
+            <img src={floor5} alt="Carousel" />
             </div>
           </div>
         </div>

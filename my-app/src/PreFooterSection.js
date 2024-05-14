@@ -1,6 +1,8 @@
 import React from "react";
 import "./PreFooterSection.css"; // Importa il file CSS per la stilizzazione
 
+
+
 function PreFooterSection() {
   return (
     <section className="pre-footer-section">
@@ -26,7 +28,7 @@ function PreFooterSection() {
               <form
                 action="vpennacchio02@gmail.com"
                 method="post"
-                enctype="text/plain"
+                encType="text/plain"
               >
                 <input
                   type="email"
