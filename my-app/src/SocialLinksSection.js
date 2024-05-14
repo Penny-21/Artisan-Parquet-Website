@@ -12,7 +12,6 @@ function SocialLinksSection() {
               rel="noopener noreferrer"
             >
               <i className="fa-brands fa-instagram"></i>
-              <span>Instagram</span>
             </a>
           </div>
           <div className="col-md-4">
@@ -22,7 +21,6 @@ function SocialLinksSection() {
               rel="noopener noreferrer"
             >
               <i className="fa-brands fa-facebook"></i>
-              <span>Facebook</span>
             </a>
           </div>
           <div className="col-md-4">
@@ -32,7 +30,6 @@ function SocialLinksSection() {
               rel="noopener noreferrer"
             >
               <i className="fa-brands fa-linkedin"></i>
-              <span>LinkedIn</span>
             </a>
           </div>
         </div>
