@@ -1,4 +1,7 @@
 import React from "react";
+import {ReactComponent as Instagram} from "./svg-bank/square-instagram.svg"
+import {ReactComponent as Facebook} from "./svg-bank/square-facebook.svg"
+import {ReactComponent as Linkedin} from "./svg-bank/linkedin.svg"
 
 function SocialLinksSection() {
   return (
@@ -11,7 +14,7 @@ function SocialLinksSection() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <i className="fa-brands fa-instagram"></i>
+              <Instagram />
             </a>
           </div>
           <div className="col-md-4">
@@ -20,7 +23,7 @@ function SocialLinksSection() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <i className="fa-brands fa-facebook"></i>
+              <Facebook />
             </a>
           </div>
           <div className="col-md-4">
@@ -29,7 +32,7 @@ function SocialLinksSection() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <i className="fa-brands fa-linkedin"></i>
+              <Linkedin />
             </a>
           </div>
         </div>
