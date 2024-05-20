@@ -1,8 +1,8 @@
 import React from "react";
 import "./Carousel.css"; // Importa il file CSS per la stilizzazione
-import foglia1 from "./assets/png/Foglia-1.png"; // Importa l'immagine (assicurati di avere il percorso corretto)
-import foglia2 from "./assets/png/Foglia-2.png"; // Importa l'immagine (assicurati di avere il percorso corretto)
-import foglia3 from "./assets/png/Foglia-3.png"; // Importa l'immagine (assicurati di avere il percorso corretto)
+import foglia1 from "../assets/png/Foglia-1.png"; // Importa l'immagine (assicurati di avere il percorso corretto)
+import foglia2 from "../assets/png/Foglia-2.png"; // Importa l'immagine (assicurati di avere il percorso corretto)
+import foglia3 from "../assets/png/Foglia-3.png"; // Importa l'immagine (assicurati di avere il percorso corretto)
 
 
 function Carousel() {

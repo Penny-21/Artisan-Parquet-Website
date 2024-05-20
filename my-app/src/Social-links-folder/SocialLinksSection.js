@@ -1,8 +1,8 @@
 import React from "react";
 /*import './SocialLinksSection.css'; */// Importa il file CSS per la stilizzazione
-import {ReactComponent as Instagram} from "./svg-bank/square-instagram.svg";
-import {ReactComponent as Facebook} from "./svg-bank/square-facebook.svg";
-import {ReactComponent as Linkedin} from "./svg-bank/linkedin.svg";
+import {ReactComponent as Instagram} from "../svg-bank/square-instagram.svg";
+import {ReactComponent as Facebook} from "../svg-bank/square-facebook.svg";
+import {ReactComponent as Linkedin} from "../svg-bank/linkedin.svg";
 
 /* const colors = {
   primary: '#405DE6',

@@ -1,6 +1,6 @@
 import React from "react";
 import "./Navbar.css";
-import logo from "./assets/png/Logo-affiancato-1.png"; // Importa l'immagine (assicurati di avere il percorso corretto)
+import logo from "../assets/png/Logo-affiancato-1.png"; // Importa l'immagine (assicurati di avere il percorso corretto)
 
 function Navbar() {
   return (
@@ -26,7 +26,7 @@ function Navbar() {
             <a className="nav-link navbar-link" href="#">
               Home
             </a>
-            <a className="nav-link navbar-link" href="#">
+            <a className="nav-link navbar-link" href="../About-folder/About.js">
               About
             </a>
             <a className="nav-link navbar-link" href="#">

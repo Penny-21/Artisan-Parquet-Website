@@ -1,9 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Navbar from './Navbar-folder/Navbar'; // Importa il componente Navbar
+import PreFooterSection from './Prefooter-folder/PreFooterSection';
+import Footer from './Footer-folder/Footer';
 
 function App() {
   return (
-    <div className="App">
+    /*     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -18,7 +20,18 @@ function App() {
           Learn React
         </a>
       </header>
-    </div>
+    </div> */
+    <Router>
+      <div className="App">
+        <Navbar />
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route path="/about" component={About} />
+        </Switch>
+        <PreFooterSection />
+        <Footer />
+      </div>
+    </Router>
   );
 }
 

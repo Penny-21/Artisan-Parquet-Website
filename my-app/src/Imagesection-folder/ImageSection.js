@@ -1,10 +1,10 @@
 import React from 'react';
 import './ImageSection.css'; // Importa il file CSS per la stilizzazione
-import floor1 from "./assets/png/Floor-1.png"; // Importa l'immagine (assicurati di avere il percorso corretto)
-import floor2 from "./assets/png/Floor-2.png"; // Importa l'immagine (assicurati di avere il percorso corretto)
-import floor3 from "./assets/png/Floor-4.png"; // Importa l'immagine (assicurati di avere il percorso corretto)
-import floor4 from "./assets/png/Floor-5.png"; // Importa l'immagine (assicurati di avere il percorso corretto)
-import floor5 from "./assets/png/Floor-3.png"; // Importa l'immagine (assicurati di avere il percorso corretto)
+import floor1 from "../assets/png/Floor-1.png"; // Importa l'immagine (assicurati di avere il percorso corretto)
+import floor2 from "../assets/png/Floor-2.png"; // Importa l'immagine (assicurati di avere il percorso corretto)
+import floor3 from "../assets/png/Floor-4.png"; // Importa l'immagine (assicurati di avere il percorso corretto)
+import floor4 from "../assets/png/Floor-5.png"; // Importa l'immagine (assicurati di avere il percorso corretto)
+import floor5 from "../assets/png/Floor-3.png"; // Importa l'immagine (assicurati di avere il percorso corretto)
 
 function ImageSection() {
   return (
