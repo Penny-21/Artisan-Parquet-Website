@@ -1,6 +1,7 @@
 import React from "react";
 import "./Navbar.css";
 import logo from "../assets/png/Logo-affiancato-1.png"; // Importa l'immagine (assicurati di avere il percorso corretto)
+import { Link } from 'react-router-dom'; // Importa Link da react-router-dom
 
 function Navbar() {
   return (
@@ -23,24 +24,12 @@ function Navbar() {
         </button>
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div className="navbar-nav">
-            <a className="nav-link navbar-link" href="#">
-              Home
-            </a>
-            <a className="nav-link navbar-link" href="../About-folder/About.js">
-              About
-            </a>
-            <a className="nav-link navbar-link" href="#">
-              Collections
-            </a>
-            <a className="nav-link navbar-link" href="#">
-              Portfolio
-            </a>
-            <a className="nav-link navbar-link" href="#">
-              Stories
-            </a>
-            <a className="nav-link navbar-link" href="#">
-              Contact
-            </a>
+            <Link to="../Home-folder/Home.js" className="nav-link navbar-link">Home</Link>
+            <Link to="../About-folder/About.js" className="nav-link navbar-link">About</Link>
+            <Link to="../Collections-folder/Collections.js" className="nav-link navbar-link">Collections</Link>
+            <Link to="../Portfolio-folder/Portfolio.js" className="nav-link navbar-link">Portfolio</Link>
+            <Link to="../Stories-folder/Stories.js" className="nav-link navbar-link">Stories</Link>
+            <Link to="../Contact-folder/Contact.js" className="nav-link navbar-link">Contact</Link>
           </div>
         </div>
       </nav>
