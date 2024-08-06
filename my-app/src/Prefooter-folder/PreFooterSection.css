@@ -1,41 +1,55 @@
 .pre-footer-section {
-    background-color: #333; /* Sfondo del pre-footer */
-    padding: 50px 0; /* Aggiungi spazio attorno al testo */
-  }
-  
-  .pre-footer-section p {
-    margin-bottom: 0; /* Rimuovi il margine inferiore dal paragrafo */
-    color: #999;
-  }
-  
-  .pre-footer-section h3 {
-    margin-bottom: 0; /* Rimuovi il margine inferiore dal paragrafo */
-    color: #fff;
-  }
+  background-color: #333; /* Sfondo del pre-footer */
+  padding: 50px 0; /* Aggiungi spazio attorno al testo */
+}
 
-  .pre-footer-item form {
-    display: flex;
-    align-items: center;
-  }
-  
-  .pre-footer-item input[type="email"] {
-    flex: 1;
-    padding: 10px;
-    margin-right: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
-  
-  .pre-footer-item button {
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  .pre-footer-item button:hover {
-    background-color: #0056b3;
-  }
-  
+.pre-footer-section p, .pre-footer-section h3 {
+  margin-bottom: 0; /* Rimuovi il margine inferiore */
+  color: #999;
+}
+
+.pre-footer-section h3 {
+  color: #fff;
+}
+
+.pre-footer-item form {
+  display: flex;
+  align-items: center;
+}
+
+.pre-footer-item input[type="email"] {
+  flex: 1;
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.pre-footer-item button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.pre-footer-item button:hover {
+  background-color: #0056b3;
+}
+
+.social-icons {
+  display: flex;
+  gap: 10px; /* Spaziatura tra le icone */
+  margin-top: 10px;
+}
+
+.social-icons a {
+  color: #fff; /* Colore delle icone */
+  font-size: 24px; /* Dimensione delle icone */
+  transition: color 0.3s ease; /* Transizione per il cambio di colore */
+}
+
+.social-icons a:hover {
+  color: #007bff; /* Cambia colore al passaggio del mouse */
+}

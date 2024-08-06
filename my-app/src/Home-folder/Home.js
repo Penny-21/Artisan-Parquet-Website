@@ -12,7 +12,6 @@ function Home() {
       <TextSection />
       <ImageSection />
       <ReviewSection />
-      <SocialLinksSection />
     </div>
   );
 }
