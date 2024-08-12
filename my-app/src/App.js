@@ -53,11 +53,11 @@ function App() {
       <Navbar />
       <Routes>
         <Route exact path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/collections" element={<Collections />} />
-        <Route path="/portfolio" element={<Portfolio />} />
-        <Route path="/stories" element={<Stories />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path="/About" element={<About />} />
+        <Route path="/Collections" element={<Collections />} />
+        <Route path="/Portfolio" element={<Portfolio />} />
+        <Route path="/Stories" element={<Stories />} />
+        <Route path="/Contact" element={<Contact />} />
       </Routes>
       <PreFooterSection />
       <Footer />

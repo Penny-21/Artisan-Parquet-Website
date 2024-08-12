@@ -24,12 +24,12 @@ function Navbar() {
         </button>
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div className="navbar-nav">
-            <Link to="../Home-folder/Home.js" className="nav-link navbar-link">Home</Link>
-            <Link to="../About-folder/About.js" className="nav-link navbar-link">About</Link>
-            <Link to="../Collections-folder/Collections.js" className="nav-link navbar-link">Collections</Link>
-            <Link to="../Portfolio-folder/Portfolio.js" className="nav-link navbar-link">Portfolio</Link>
-            <Link to="../Stories-folder/Stories.js" className="nav-link navbar-link">Stories</Link>
-            <Link to="../Contact-folder/Contact.js" className="nav-link navbar-link">Contact</Link>
+            <Link to="/" className="nav-link navbar-link">Home</Link>
+            <Link to="/About" className="nav-link navbar-link">About</Link>
+            <Link to="/Collections" className="nav-link navbar-link">Collections</Link>
+            <Link to="/Portfolio" className="nav-link navbar-link">Portfolio</Link>
+            <Link to="./Stories" className="nav-link navbar-link">Stories</Link>
+            <Link to="/Contact" className="nav-link navbar-link">Contact</Link>
           </div>
         </div>
       </nav>
